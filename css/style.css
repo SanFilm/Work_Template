@@ -1,0 +1,34 @@
+
+
+/*--------------------*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.main {
+	background-color: rgb(255, 249, 166);
+}
+
+.search {
+	background-color: rgb(255, 176, 111);
+}
+
+.search__query {
+	background-color: rgb(255, 115, 27);
+}
+
+.search__icons {
+	background-color: rgb(255, 115, 27);
+}
+
+.button {
+	background-color: rgb(121, 213, 255);
+}
+
+.button__search {
+	background-color: rgb(40, 187, 255);
+}
