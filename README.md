@@ -1,3 +1,3 @@
 # Work_Template
 ---
-https://github.com/SanFilm/Work_Template/
+https://sanfilm.github.io/work_template/
