@@ -21,7 +21,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 150px;
+	height: 120px;
 	background-color: #efefef;
 	box-shadow: 0 0 5px rgb(60, 60, 60);
 }
