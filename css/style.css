@@ -11,25 +11,56 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	background: #fafafa;
 }
-
-
-section{
+.content-wrapper{
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 150px;
+	background-color: #efefef;
+	box-shadow: 0 0 5px rgb(60, 60, 60);
+}
+
+h1, h4{
+	margin: 0;
+	text-align: right;
+	line-height: 1.5;
+	padding-right: 100px;
+}
+.title{
+	color: #ffd700;
+}
+.subtitle{
+	color: #7f7f7f80;
+}
+.subtitle a{
+	text-decoration: none;
+	color: #7f7f7f;
+}
+
+
+.section{
+	height: 100%;
 	display: flex;
 	justify-content: center;
 }
-section .main {
+.section .main {
 	margin: 0px 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-section .main .logo{
+.section .main .logo{
 	width: 272px;
 }
 
-section .main .search {
+.section .main .search {
 	margin-top: 20px;
 	position: relative;
 }
@@ -45,13 +76,13 @@ section .main .search {
 	font-size: 16px;
 	background-color: transparent;
 }
-section .main .search__query:hover,
-section .main .search__query:focus{
+.section .main .search__query:hover,
+.section .main .search__query:focus{
 	border: none;
 	background-color: #ccc;
 }
 
-section .main .search__icons {
+.section .main .search__icons {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -63,19 +94,19 @@ section .main .search__icons {
 	pointer-events: none;
 	padding-top: 6px;
 }
-/* section .main .search__icons img{
+/* .section .main .search__icons img{
 	max-width: 100%;
 } */
-section .main .search__icons img:hover{
+.section .main .search__icons img:hover{
 	cursor: pointer;
 }
 
-section .main .button {
+.section .main .button {
 	margin-top: 20px;
 	/* background-color: rgba(121, 213, 255, 0.5); */
 }
 
-section .main .button__search {
+.section .main .button__search {
 	border-radius: 7px;
 	border: 2px solid transparent;
 	padding: 10px 20px;
@@ -84,7 +115,7 @@ section .main .button__search {
 	/* font-size: 16px; */
 	/* background-color: rgba(40, 187, 255, 0.5); */
 }
-section .main .button__search:hover {
+.section .main .button__search:hover {
 	border: 2px solid rgb(175, 175, 175);
 	background-color: #ccc;
 }
